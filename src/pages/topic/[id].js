@@ -1,5 +1,4 @@
 import Image from "next/image"
-import Link from "next/link"
 import { client } from "../../libs/client"
 
 export default function Topic({ topic }) {
@@ -19,8 +18,8 @@ export default function Topic({ topic }) {
                 height="200"
                 layout="fixed"
                 alt={shop.name}
-                objectFit="cover" // change to suit your needs
-                className="rounded" // just an example
+                objectFit="cover"
+                className="rounded"
               ></Image>
             </div>
             <p>{ramen.comment}</p>

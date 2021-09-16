@@ -14,7 +14,7 @@ export default function Layout({ children }) {
         <main className="sm:container px-4 mx-auto">{children}</main>
         <footer className="mx-8 my-12 pt-8 border-t">
           <address className="text-center">
-            <Link href="/"></Link>
+            <Link href="/">Top</Link>
           </address>
         </footer>
       </div>
